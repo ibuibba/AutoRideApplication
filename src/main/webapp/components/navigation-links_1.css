@@ -1,0 +1,116 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text {
+  transition: 0.3s;
+  border-color: #fbfbfb;
+}
+.navigation-links-text:active {
+  color: #ffffff;
+  background-color: #000000;
+}
+.navigation-links-text1 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  border-color: #ffffff;
+}
+.navigation-links-text1:active {
+  color: #f9f9f9;
+  background-color: #060606;
+}
+.navigation-links-text2 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  border-color: #ffffff;
+}
+.navigation-links-text2:active {
+  color: #fffefe;
+  background-color: #000000;
+}
+.navigation-links-text3 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  border-color: #ffffff;
+}
+.navigation-links-text3:active {
+  color: #ffffff;
+  background-color: #0c0c0c;
+}
+.navigation-links-text4 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  border-color: #ffffff;
+}
+.navigation-links-text4:active {
+  color: #fbf6f6;
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name12 {
+  flex: 1;
+  align-self: center;
+}
+
+
+
+.navigation-links-root-class-name16 {
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name28 {
+  align-self: center;
+}
+
+.navigation-links-root-class-name30 {
+  flex: 1;
+  align-self: center;
+}
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
